@@ -310,3 +310,71 @@ print(acessoAoCofre(senha: "1234", hora: 16))
 
 
 
+//Estudos
+
+// 15 Crie uma função que receba um número inteiro e retorne "Positivo", "Negativo" ou "Zero" de acordo com o valor informado.
+
+
+func numeroInteiro(numero: String?) -> String {
+    
+    guard let  texto = numero, !texto.isEmpty, let numeros = Int(texto) else {
+        return "Insira um numero válido"
+    }
+    
+            if numeros > 0 {
+        return "Positivo"
+    }else if numeros < 0 {
+        return "Negativo"
+    }else {
+        return "Zero"
+    }
+}
+
+print(numeroInteiro(numero:"er"))
+
+
+
+//16 - Crie uma função que receba um número inteiro e retorne "Par" se o número for par ou "Ímpar" se for ímpar.
+
+func retornaParOuImpar(numero: String?) -> String {
+    
+    guard let numeroInserido = numero, !numeroInserido.isEmpty, let valor = Int(numeroInserido) else {
+        return " insira um numero inteiro"
+    }
+    
+    if valor % 2 == 0 {
+        return "PAR"
+    } else{
+        return "IMPAR"
+}
+print(retornaParOuImpar(numero: "0"))
+
+//17 - Crie uma função que receba três notas (Double) e retorne "Aprovado" se a média for maior ou igual a 7, "Recuperação" se estiver entre 5 e 6.9 e "Reprovado" se for menor que 5.
+    
+    
+    
+    
+//18
+//Crie uma função que receba uma idade (Int) e retorne "Criança" (0–12), "Adolescente" (13–17), "Adulto" (18–59) ou "Idoso" (60+).
+//19
+//Crie uma função que receba a quantidade de horas trabalhadas (Int) e retorne "Hora extra" se for maior que 8 ou "Carga normal" caso contrário.
+//20
+//Crie uma função que receba um valor de compra (Double) e retorne "Frete grátis" se o valor for maior ou igual a 200, caso contrário "Frete cobrado".
+//21
+//Crie uma função que receba uma letra (String) e retorne "Vogal" se for vogal ou "Consoante" caso contrário.
+//22
+//Crie uma função que receba dois números inteiros e retorne "Números iguais" se forem iguais ou "Números diferentes" caso contrário.
+//23
+//Crie uma função que receba um número inteiro de 1 a 7 e retorne o dia da semana correspondente. Caso o número esteja fora do intervalo, retorne "Dia inválido".
+//24
+//Crie uma função que receba uma temperatura (Double) e retorne "Frio" (menor que 18), "Agradável" (18 a 25) ou "Quente" (acima de 25).
+//25
+//Crie uma função que receba um valor booleano indicando se o usuário está logado e retorne "Acesso liberado" ou "Acesso negado".
+//26
+//Crie uma função que receba um salário (Double) e retorne "Isento" se for até 2000, "Imposto médio" se estiver entre 2000 e 5000, ou "Imposto alto" se for maior que 5000.
+//27
+//Crie uma função que receba uma senha (String) e retorne "Senha inválida" se estiver vazia ou "Senha válida" caso contrário.
+//28
+//Crie uma função que receba um valor inteiro representando o nível de bateria (0 a 100) e retorne "Bateria baixa" (0–20), "Bateria média" (21–80) ou "Bateria cheia" (81–100).
+//29
+//Crie uma função que receba um horário (Int) e retorne "Manhã" (5–11), "Tarde" (12–17), "Noite" (18–23) ou "Horário inválido".
