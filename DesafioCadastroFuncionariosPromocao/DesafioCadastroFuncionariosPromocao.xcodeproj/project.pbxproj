@@ -6,32 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXCopyFilesBuildPhase section */
-		A0F622CF2F2AD3D50060B5B8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		A0F622D12F2AD3D50060B5B8 /* Desafio POO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Desafio POO"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A130182F3F59CC00A545D8 /* DesafioCadastroFuncionariosPromocao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioCadastroFuncionariosPromocao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A0A1302A2F3F59CE00A545D8 /* Exceptions for "DesafioCadastroFuncionariosPromocao" folder in "DesafioCadastroFuncionariosPromocao" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A0A130172F3F59CC00A545D8 /* DesafioCadastroFuncionariosPromocao */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A0F622D32F2AD3D50060B5B8 /* Desafio POO */ = {
+		A0A1301A2F3F59CC00A545D8 /* DesafioCadastroFuncionariosPromocao */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Desafio POO";
+			exceptions = (
+				A0A1302A2F3F59CE00A545D8 /* Exceptions for "DesafioCadastroFuncionariosPromocao" folder in "DesafioCadastroFuncionariosPromocao" target */,
+			);
+			path = DesafioCadastroFuncionariosPromocao;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A0F622CE2F2AD3D50060B5B8 /* Frameworks */ = {
+		A0A130152F3F59CC00A545D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A0F622C82F2AD3D50060B5B8 = {
+		A0A1300F2F3F59CC00A545D8 = {
 			isa = PBXGroup;
 			children = (
-				A0F622D32F2AD3D50060B5B8 /* Desafio POO */,
-				A0F622D22F2AD3D50060B5B8 /* Products */,
+				A0A1301A2F3F59CC00A545D8 /* DesafioCadastroFuncionariosPromocao */,
+				A0A130192F3F59CC00A545D8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A0F622D22F2AD3D50060B5B8 /* Products */ = {
+		A0A130192F3F59CC00A545D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0F622D12F2AD3D50060B5B8 /* Desafio POO */,
+				A0A130182F3F59CC00A545D8 /* DesafioCadastroFuncionariosPromocao.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,64 +61,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0F622D02F2AD3D50060B5B8 /* Desafio POO */ = {
+		A0A130172F3F59CC00A545D8 /* DesafioCadastroFuncionariosPromocao */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0F622D82F2AD3D50060B5B8 /* Build configuration list for PBXNativeTarget "Desafio POO" */;
+			buildConfigurationList = A0A1302B2F3F59CE00A545D8 /* Build configuration list for PBXNativeTarget "DesafioCadastroFuncionariosPromocao" */;
 			buildPhases = (
-				A0F622CD2F2AD3D50060B5B8 /* Sources */,
-				A0F622CE2F2AD3D50060B5B8 /* Frameworks */,
-				A0F622CF2F2AD3D50060B5B8 /* CopyFiles */,
+				A0A130142F3F59CC00A545D8 /* Sources */,
+				A0A130152F3F59CC00A545D8 /* Frameworks */,
+				A0A130162F3F59CC00A545D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A0F622D32F2AD3D50060B5B8 /* Desafio POO */,
+				A0A1301A2F3F59CC00A545D8 /* DesafioCadastroFuncionariosPromocao */,
 			);
-			name = "Desafio POO";
+			name = DesafioCadastroFuncionariosPromocao;
 			packageProductDependencies = (
 			);
-			productName = "Desafio POO";
-			productReference = A0F622D12F2AD3D50060B5B8 /* Desafio POO */;
-			productType = "com.apple.product-type.tool";
+			productName = DesafioCadastroFuncionariosPromocao;
+			productReference = A0A130182F3F59CC00A545D8 /* DesafioCadastroFuncionariosPromocao.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A0F622C92F2AD3D50060B5B8 /* Project object */ = {
+		A0A130102F3F59CC00A545D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					A0F622D02F2AD3D50060B5B8 = {
+					A0A130172F3F59CC00A545D8 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = A0F622CC2F2AD3D50060B5B8 /* Build configuration list for PBXProject "Desafio POO" */;
+			buildConfigurationList = A0A130132F3F59CC00A545D8 /* Build configuration list for PBXProject "DesafioCadastroFuncionariosPromocao" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A0F622C82F2AD3D50060B5B8;
+			mainGroup = A0A1300F2F3F59CC00A545D8;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A0F622D22F2AD3D50060B5B8 /* Products */;
+			productRefGroup = A0A130192F3F59CC00A545D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0F622D02F2AD3D50060B5B8 /* Desafio POO */,
+				A0A130172F3F59CC00A545D8 /* DesafioCadastroFuncionariosPromocao */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A0A130162F3F59CC00A545D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		A0F622CD2F2AD3D50060B5B8 /* Sources */ = {
+		A0A130142F3F59CC00A545D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,7 +138,63 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A0F622D62F2AD3D50060B5B8 /* Debug */ = {
+		A0A1302C2F3F59CE00A545D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMYZ767V32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioCadastroFuncionariosPromocao/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.dev.eduardo.DesafioCadastroFuncionariosPromocao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0A1302D2F3F59CE00A545D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMYZ767V32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioCadastroFuncionariosPromocao/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.dev.eduardo.DesafioCadastroFuncionariosPromocao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0A1302E2F3F59CE00A545D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,18 +246,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A0F622D72F2AD3D50060B5B8 /* Release */ = {
+		A0A1302F2F3F59CE00A545D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,59 +303,38 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-			};
-			name = Release;
-		};
-		A0F622D92F2AD3D50060B5B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NMYZ767V32;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		A0F622DA2F2AD3D50060B5B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NMYZ767V32;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0F622CC2F2AD3D50060B5B8 /* Build configuration list for PBXProject "Desafio POO" */ = {
+		A0A130132F3F59CC00A545D8 /* Build configuration list for PBXProject "DesafioCadastroFuncionariosPromocao" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0F622D62F2AD3D50060B5B8 /* Debug */,
-				A0F622D72F2AD3D50060B5B8 /* Release */,
+				A0A1302E2F3F59CE00A545D8 /* Debug */,
+				A0A1302F2F3F59CE00A545D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0F622D82F2AD3D50060B5B8 /* Build configuration list for PBXNativeTarget "Desafio POO" */ = {
+		A0A1302B2F3F59CE00A545D8 /* Build configuration list for PBXNativeTarget "DesafioCadastroFuncionariosPromocao" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0F622D92F2AD3D50060B5B8 /* Debug */,
-				A0F622DA2F2AD3D50060B5B8 /* Release */,
+				A0A1302C2F3F59CE00A545D8 /* Debug */,
+				A0A1302D2F3F59CE00A545D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A0F622C92F2AD3D50060B5B8 /* Project object */;
+	rootObject = A0A130102F3F59CC00A545D8 /* Project object */;
 }
