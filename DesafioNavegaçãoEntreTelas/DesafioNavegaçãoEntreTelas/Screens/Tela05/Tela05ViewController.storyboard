@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tela05ViewController-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Tela05ViewController" title="Tela05ViewController" id="Y6W-OH-hqX" customClass="Tela05ViewController" customModule="DesafioNavegacaoEntreTelas2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqD-wt-z7J">
+                                <rect key="frame" x="151.66666666666666" y="159" width="90" height="35"/>
+                                <color key="backgroundColor" red="0.78799384829999997" green="0.60286724570000005" blue="0.46412283180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Yv5-TG-VBQ"/>
+                                    <constraint firstAttribute="width" constant="90" id="nul-DR-U6q"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Tela 01"/>
+                                <connections>
+                                    <action selector="tappedTela01Button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="lgO-IP-Isg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6o-W9-3gU">
+                                <rect key="frame" x="151.66666666666666" y="294" width="90" height="35"/>
+                                <color key="backgroundColor" red="0.78799384829999997" green="0.60286724570000005" blue="0.46412283180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="63a-Jh-DBc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="K4c-jZ-KgL"/>
+                                    <constraint firstAttribute="width" constant="90" id="adI-br-tfd"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="bgk-us-p6N"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Tela 04"/>
+                                <connections>
+                                    <action selector="tappedTela04Button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="LOc-Q4-jkU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="x6o-W9-3gU" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="4Q9-MC-qza"/>
+                            <constraint firstItem="qqD-wt-z7J" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="goK-OG-I2e"/>
+                            <constraint firstItem="qqD-wt-z7J" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="100" id="lh3-Uv-EVX"/>
+                            <constraint firstItem="x6o-W9-3gU" firstAttribute="top" secondItem="qqD-wt-z7J" secondAttribute="bottom" constant="100" id="lpB-yW-W7B"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tela01Button" destination="qqD-wt-z7J" id="pNU-W9-kLG"/>
+                        <outlet property="tela04Button" destination="x6o-W9-3gU" id="5ZG-Rr-UWu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
