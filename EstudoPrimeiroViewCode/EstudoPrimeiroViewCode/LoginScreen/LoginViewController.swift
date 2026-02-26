@@ -18,6 +18,7 @@ final class LoginViewController: UIViewController { // FINAL - Impede herança d
 //        Dessa forma assumo o controle manual da criação da interface, eliminando dependência de Storyboard
         
           view = screen // Substituindo a view padrão da UIViewController pela sua UIView customizada (LoginScreen).
+        //  Referencia Forte, nao importa o que acontenca, sempre apontaram para o mesmo enderenco da memoria. 
         
 //        Se NÃO sobrescrever loadView():
 //        O sistema cria automaticamente uma UIView vazia
@@ -27,6 +28,7 @@ final class LoginViewController: UIViewController { // FINAL - Impede herança d
     override func viewDidLoad() {
        //viewDidLoad() é chamado depois que a view já foi carregada na memória
         //renderiza nossa tela
+        //chamado apenas uma vez.
         super.viewDidLoad()
         screen?.delegate = self //assinatura de contrato
     }
@@ -44,3 +46,5 @@ extension LoginViewController: LoginScreenDelegate{ //conformidade com metodos d
     
     
 }
+
+//extension - extender um bloco de codigo para outra parte do codigo 

@@ -18,10 +18,10 @@ import UIKit
 //5 - Configurar as constraints
 //6 - chamar no loadView
 
-                            //AnybOjetct - por que a referencia tem que ser week. Porque a View mantém uma referência ao delegate,e o delegate geralmente é a ViewController que já mantém a View.
+                            //AnybOjetct (pode ser assinado por um objeto)  - por que a referencia tem que ser week. Porque a View mantém uma referência ao delegate,e o delegate  a ViewController que já mantém a View.
 protocol LoginScreenDelegate: AnyObject {
-    func didTapLoginButton()
-//um protocol (ou protocolo) é como um "contrato de comunicacao" que define um conjunto de métodos ou propriedades que uma classe ou estruturas deve implementar.Qualquer objeto que adote esse protocolo se compromete a implementar os métodos declarados nele, permitindo comunicação desacoplada entre componentes.
+    func didTapLoginButton()//so referencia os metodos que tem que ser executado.
+//um protocol (ou protocolo) é como um "contrato de comunicacao" que define um conjunto de métodos ou propriedades que uma classe ou estruturas deve implementar.Qualquer objeto que adote esse protocolo se compromete a implementar os métodos declarados nele (em conformidade), permitindo comunicação desacoplada entre componentes.
     
    //basicamente: A View avise que algo aconteceu e a ViewController decida o que fazer.
 }
@@ -116,7 +116,7 @@ class LoginScreen: UIView {
     //Mesmo utilizando init(frame:), somos obrigados a implementar required init?(coder:) porque a classe UIView declara esse inicializador como required. Isso faz parte do contrato de herança da classe. O init(coder:) é utilizado quando a view é instanciada via Storyboard ou XIB, através de desserialização. Em projetos 100% ViewCode, implementamos esse init apenas para cumprir o contrato da superclasse, geralmente usando fatalError para evitar uso indevido.
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError("init(coder:) has not been implemented") //storyboar e Xib.
         // Required init  ->  é um modificador qeu obriga as subclasses a implementar aquele inicializador. Usado quando queremos garantir as inconsistencia na cadeia de herança. UIViewController exige esse inicializador para suportar o Storyboard.
     }
     
@@ -126,6 +126,7 @@ class LoginScreen: UIView {
         addSubview(emailTextField)
         addSubview(passwordTextField)
         addSubview(loginButton)
+        
     }
     
     private func configContraints() {
